@@ -11,6 +11,9 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/brick/math" />
@@ -118,6 +121,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1zfgdBL9BH44smuCKPttiDLiveN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -158,6 +162,7 @@
       <workItem from="1635128686712" duration="6616000" />
       <workItem from="1635247612836" duration="4277000" />
       <workItem from="1635321114755" duration="14000" />
+      <workItem from="1635329592931" duration="2374000" />
     </task>
     <servers />
   </component>
@@ -173,14 +178,22 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="623" y="209" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1635248577146" />
-    <state x="686" y="209" key="FileChooserDialogImpl" timestamp="1635321121841">
+    <state x="686" y="209" key="FileChooserDialogImpl" timestamp="1635338956327">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="686" y="209" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1635321121841" />
+    <state x="686" y="209" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1635338956327" />
+    <state x="808" y="385" key="Github.ShareDialog" timestamp="1635332242970">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="808" y="385" key="Github.ShareDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1635332242970" />
     <state x="749" y="419" key="NewPhpFileDialog" timestamp="1635248619439">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="749" y="419" key="NewPhpFileDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1635248619439" />
+    <state x="764" y="227" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1635330332667">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="764" y="227" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1635330332667" />
     <state x="539" y="0" width="840" height="1034" key="search.everywhere.popup" timestamp="1634988158712">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
