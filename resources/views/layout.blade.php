@@ -17,7 +17,7 @@
 </head>
 <body>
 <!-- Responsive navbar-->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark bg-white border-red">
     <div class="container px-5">
         <a class="navbar-brand" href="{{route('index', ['language' => session('language')])}}">
             <!--<img class="logo" src="/frontpage/css/Images/Logo.png" alt="Школа польского языка Alicja">-->

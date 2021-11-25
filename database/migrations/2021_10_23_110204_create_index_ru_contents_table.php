@@ -35,9 +35,9 @@ class CreateIndexRuContentsTable extends Migration
             $table->string('button_3');
             $table->string('review_title');
             $table->mediumText('review_text_1');
-            $table->string('review_author_1');
-            $table->string('review_location_1');
-            $table->date('review_date_1');
+            $table->string('review_author_1')->nullable();
+            $table->string('review_location_1')->nullable();
+            $table->date('review_date_1')->nullable();
             $table->mediumText('review_text_2');
             $table->string('review_author_2');
             $table->string('review_location_2');

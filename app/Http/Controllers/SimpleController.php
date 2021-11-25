@@ -14,13 +14,6 @@ class SimpleController extends Controller
         return view('/certificates');
     }
 
-    public function courses($language)
-    {
-        App::setLocale($language);
-        session()->put('language', $language);
-        return view('/courses');
-    }
-
     public function intensive($language)
     {
         App::setLocale($language);
@@ -33,6 +26,13 @@ class SimpleController extends Controller
         App::setLocale($language);
         session()->put('language', $language);
         return view('/online');
+    }
+
+    public function contacts($language)
+    {
+        App::setLocale($language);
+        session()->put('language', $language);
+        return view('/contacts');
     }
 
     public function admin($language)
