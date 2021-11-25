@@ -35,13 +35,15 @@ Route::get('admin/edit-main/{language}', 'AdminIndexController@show')->name('edi
 
 Route::post('admin/edit-main/{language}', 'AdminIndexController@edit_save')->name('edit-main-post');
 
-Route::get('admin/admin-courses/{language}', 'AdminCoursesController@show')->name('admin-courses-get');
+Route::get('admin/admin-courses/{language}', 'AdminCoursesController@delete')->name('delete-courses-get');
+
+Route::delete('admin/admin-courses/{language}', 'AdminCoursesController@delete')->name('delete-courses-post');
 
 Route::get('admin/add-course/{language}', 'AdminCoursesController@add')->name('add-course-get');
 
 Route::post('admin/add-course/{language}', 'AdminCoursesController@add_save')->name('add-course-post');
 
-Route::get('admin/edit-course/{id}/{language}', 'AdminCoursesController@edit')->name('edit-course-get');
+Route::get('admin/edit-course/{id?}/{language}', 'AdminCoursesController@edit')->name('edit-course-get');
 
 Route::post('admin/edit-course/{id}/{language}', 'AdminCoursesController@edit_save')->name('edit-course-post');
 

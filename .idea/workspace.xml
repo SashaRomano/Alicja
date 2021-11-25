@@ -11,33 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a983f70a-e13b-4f29-a65f-99d4cd35e619" name="Default Changelist" comment="Commit and push">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ReqController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Req.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_11_14_015429_create_reqs_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Images/Bmenu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Images/Icon_100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Images/Wzór.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Images/all.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Images/left.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/add_course.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/admin_courses.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/edit_course.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/my/my_course.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/my/my_course_success.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/18ee98c5-dcfd-4808-b2d7-a84755d9dc18.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/18ee98c5-dcfd-4808-b2d7-a84755d9dc18.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminIndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminIndexController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SimpleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SimpleController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_10_23_110204_create_index_ru_contents_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_10_23_110204_create_index_ru_contents_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_10_25_022729_create_index_uk_contents_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_10_25_022729_create_index_uk_contents_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontpage/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontpage/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/lang/ru/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ru/menu.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/lang/uk/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/uk/menu.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/admin.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/admin_index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/admin_index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/courses.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/courses.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/admin_courses.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/admin_courses.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/edit_course.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/edit_course.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -218,7 +197,7 @@
       <workItem from="1637571964078" duration="4313000" />
       <workItem from="1637650654851" duration="5329000" />
       <workItem from="1637766394459" duration="4728000" />
-      <workItem from="1637826979482" duration="2712000" />
+      <workItem from="1637826979482" duration="6488000" />
     </task>
     <task id="LOCAL-00001" summary="Commit and push">
       <created>1635493949506</created>
@@ -227,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635493949506</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit and push">
+      <created>1637829753448</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1637829753448</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,10 +241,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="551" y="164" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1634990096842" />
-    <state x="623" y="209" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1637827579089">
+    <state x="623" y="209" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1637834404372">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="623" y="209" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1637827579089" />
+    <state x="623" y="209" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1637834404372" />
     <state x="686" y="209" key="FileChooserDialogImpl" timestamp="1637828070446">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -271,10 +257,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="749" y="419" key="NewPhpFileDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1637829446125" />
-    <state x="451" y="164" key="Vcs.Push.Dialog.v2" timestamp="1635493952781">
+    <state x="451" y="164" key="Vcs.Push.Dialog.v2" timestamp="1637829755282">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="451" y="164" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1635493952781" />
+    <state x="451" y="164" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1637829755282" />
     <state x="764" y="227" width="583" height="577" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1637767088940">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>

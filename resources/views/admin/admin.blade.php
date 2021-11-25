@@ -17,7 +17,7 @@
                 </div>
                 <div class="m-3">
                     <a class="btn btn-outline-dark btn-lg px-4"
-                       href="{{route('admin-courses-get', ['language' => session('language')])}}">{{__('menu.admin_courses')}}</a>
+                       href="{{route('delete-courses-get', ['language' => session('language')])}}">{{__('menu.admin_courses')}}</a>
                 </div>
 
 

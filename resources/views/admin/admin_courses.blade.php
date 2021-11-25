@@ -26,12 +26,19 @@
                             <td>{{$course->id}}</td>
                             <td>{{$course->title}}</td>
                             <td>
-                                <form action="" method="get">
+                                <form action="/admin/edit-course/{{$course->id}}/{{session('language')}}" method="get">
                                     <input type="hidden" value="{{$course->id}}">
                                     <button type="submit" class="btn btn-outline-success">{{__('menu.edit')}}</button>
                                 </form>
                             </td>
-                            <td></td>
+                            <td>
+                                <form action="" method="post">
+                                    @csrf
+                                    {{method_field('delete')}}
+                                    <input type="hidden" name="id" value="{{$course->id}}">
+                                    <button type="submit" class="btn btn-outline-danger">{{__('menu.delete')}}</button>
+                                </form>
+                            </td>
                         </tr>
                     @endforeach
                 </table>
