@@ -34,8 +34,8 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" id="navbarDropdownLang" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">{{__('menu.lang')}}</a>
                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownLang">
-                        <li><a class="dropdown-item" href="{{route(\Illuminate\Support\Facades\Route::currentRouteName(), ['language' => 'uk'])}}">UK</a></li>
-                        <li><a class="dropdown-item" href="{{route(\Illuminate\Support\Facades\Route::currentRouteName(), ['language' => 'ru'])}}">RU</a></li>
+                        <li><a class="dropdown-item" href="{{route(\Illuminate\Support\Facades\Route::currentRouteName(), ['id' => session('id'), 'language' => 'uk'])}}">UK</a></li>
+                        <li><a class="dropdown-item" href="{{route(\Illuminate\Support\Facades\Route::currentRouteName(), ['id' => session('id'), 'language' => 'ru'])}}">RU</a></li>
                     </ul>
                 </li>
                 <li class="nav-item"><a class="nav-link" href="{{route('home', ['language' => session('language')])}}">{{__('menu.enter')}}</a></li>

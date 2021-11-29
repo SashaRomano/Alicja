@@ -121,6 +121,9 @@ class AdminCoursesController extends Controller
             $ru_course->link_2 = $request->input('link_2_ru');
             $ru_course->anchor_2 = $request->input('anchor_2_ru');
             $ru_course->text_2 = $request->input('text_2_ru');
+            $ru_course->link_3 = $request->input('link_3_ru');
+            $ru_course->anchor_3 = $request->input('anchor_3_ru');
+            $ru_course->text_3 = $request->input('text_3_ru');
             $ru_course->save();
 
             $uk_course = CoursesUk::where('id', '=', $id)->first();
@@ -133,6 +136,9 @@ class AdminCoursesController extends Controller
             $uk_course->link_2 = $request->input('link_2_uk');
             $uk_course->anchor_2 = $request->input('anchor_2_uk');
             $uk_course->text_2 = $request->input('text_2_uk');
+            $uk_course->link_3 = $request->input('link_3_uk');
+            $uk_course->anchor_3 = $request->input('anchor_3_uk');
+            $uk_course->text_3 = $request->input('text_3_uk');
             $uk_course->save();
 
             $language = session('language');

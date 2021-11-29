@@ -26,6 +26,9 @@ class CreateCoursesRusTable extends Migration
             $table->text('link_2')->nullable();
             $table->string('anchor_2')->nullable();
             $table->mediumText('text_2')->nullable();
+            $table->text('link_3')->nullable();
+            $table->string('anchor_3')->nullable();
+            $table->mediumText('text_3')->nullable();
             $table->timestamps();
         });
     }

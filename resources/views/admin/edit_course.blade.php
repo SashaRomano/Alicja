@@ -56,6 +56,17 @@
                         <strong>Long text RU:</strong>
                         <textarea type="text" name="text_2_ru" cols="45" rows="10" wrap="soft"
                                   class="input-group-text col-lg-12">{{$ru_course->text_2}}</textarea>
+                        <strong>Link RU:</strong>
+                        <input type="text" name="link_3_ru" value="{{$ru_course->link_3}}"
+                               class="input-group-text col-lg-12">
+                        <hr>
+                        <strong>Anchor RU:</strong>
+                        <input type="text" name="anchor_3_ru" value="{{$ru_course->anchor_3}}"
+                               class="input-group-text col-lg-12">
+                        <hr>
+                        <strong>Long text RU:</strong>
+                        <textarea type="text" name="text_3_ru" cols="45" rows="10" wrap="soft"
+                                  class="input-group-text col-lg-12">{{$ru_course->text_3}}</textarea>
 
                     </div>
                     <div class="col-lg-5 form-check-inline">
@@ -95,6 +106,17 @@
                         <strong>Long text UK:</strong>
                         <textarea type="text" name="text_2_uk" cols="45" rows="10" wrap="soft"
                                   class="input-group-text col-lg-12">{{$uk_course->text_2}}</textarea>
+                        <strong>Link UK:</strong>
+                        <input type="text" name="link_3_uk" value="{{$uk_course->link_3}}"
+                               class="input-group-text col-lg-12">
+                        <hr>
+                        <strong>Anchor UK:</strong>
+                        <input type="text" name="anchor_3_uk" value="{{$uk_course->anchor_3}}"
+                               class="input-group-text col-lg-12">
+                        <hr>
+                        <strong>Long text UK:</strong>
+                        <textarea type="text" name="text_3_uk" cols="45" rows="10" wrap="soft"
+                                  class="input-group-text col-lg-12">{{$uk_course->text_3}}</textarea>
 
                     </div>
 

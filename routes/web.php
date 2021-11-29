@@ -21,6 +21,8 @@ Route::get('certificates/{language}', 'SimpleController@certificates')->name('ce
 
 Route::get('courses/{language}', 'CoursesController@show')->name('courses');
 
+Route::get('course/{id?}/{language}', 'CoursesController@single_course')->name('course');
+
 Route::get('intensive/{language}', 'SimpleController@intensive')->name('intensive');
 
 Route::get('online/{language}', 'SimpleController@online')->name('online');
