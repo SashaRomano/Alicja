@@ -15,12 +15,12 @@
 
     <section class="py-5 bg-white">
         <div class="container px-5">
-            <div class="row gx-5">
+            <div class="row flex gx-5">
                 <div class="col-xl-8">
                     <!-- News item-->
                     <div class="mb-4">
                         @foreach($courses as $course)
-                            <a class="link-dark" href="#!"><h3>{{$course->title}}</h3></a>
+                            <a class="link-dark" href="{{route('course', ['id' => $course->id, 'language' => session('language')])}}"><h3>{{$course->title}}</h3></a>
                             <pre>{!! $course->short_text_1 !!} <a href="{{route('course', ['id' => $course->id, 'language' => session('language')])}}"
                                                                   class="text-decoration-none">{{__('menu.more')}}</a></pre>
                         @endforeach

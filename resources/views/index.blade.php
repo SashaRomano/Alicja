@@ -45,7 +45,7 @@
                         <img class="icon" src="{{$content->icon_1}}">
                         <h2 class="h4 fw-bolder">{{$content->subtitle_1}}</h2>
                         <p><pre>{!! $content->subtext_1 !!}</pre></p>
-                        <a class="text-decoration-none" href="#!">
+                        <a class="text-decoration-none" href="{{route('courses', ['language' => session('language')])}}">
                             {{$content->button_1}}
                             <i class="bi bi-arrow-right"></i>
                         </a>

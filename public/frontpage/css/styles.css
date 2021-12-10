@@ -11991,3 +11991,28 @@ pre{
     white-space: pre-wrap;
     font-size: 1em;
 }
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 450px) {
+    .flex-center{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .m-450-25{
+        margin-bottom: 25px;
+    }
+}
+
+.m-b-50{
+    margin-bottom: 50px;
+}
+
+.try {
+    background-color: lightgreen;
+}

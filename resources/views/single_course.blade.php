@@ -12,7 +12,7 @@
 
     <section class="py-5 bg-white">
         <div class="container px-5">
-            <div class="row gx-5">
+            <div class="row flex gx-5">
                 <div class="col-xl-8">
                     <!-- News item-->
                     <div class="mb-4">
@@ -23,12 +23,9 @@
                                     href="{{$course->link_3}}"
                                     class="text-decoration-none">{{$course->anchor_3}}</a> {!! $course->text_3 !!}
                                 <br>
-                                <br>
-                                  <a class="btn btn-outline-dark btn-lg px-4"
+                                  <a class="btn btn-outline-dark btn-lg px-4 flex"
                                      href="{{route('save-req-get', ['language' => session('language')])}}">{{__('menu.course_free')}}</a>
                            </pre>
-
-
                     </div>
                 </div>
             </div>

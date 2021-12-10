@@ -11,13 +11,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a983f70a-e13b-4f29-a65f-99d4cd35e619" name="Default Changelist" comment="Commit and push">
-      <change afterPath="$PROJECT_DIR$/resources/views/single_course.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Images/Sofia 1 A1.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/calculator.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/18ee98c5-dcfd-4808-b2d7-a84755d9dc18.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/18ee98c5-dcfd-4808-b2d7-a84755d9dc18.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CoursesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CoursesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/frontpage/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontpage/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/lang/ru/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ru/menu.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/lang/uk/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/uk/menu.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/courses.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/courses.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/single_course.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/single_course.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -201,6 +204,9 @@
       <workItem from="1637826979482" duration="7418000" />
       <workItem from="1637932740905" duration="662000" />
       <workItem from="1638168550786" duration="33000" />
+      <workItem from="1638243824589" duration="267000" />
+      <workItem from="1638516461039" duration="128000" />
+      <workItem from="1639022991052" duration="7172000" />
     </task>
     <task id="LOCAL-00001" summary="Commit and push">
       <created>1635493949506</created>
@@ -251,22 +257,22 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="551" y="164" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1634990096842" />
-    <state x="623" y="209" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1637834404372">
+    <state x="623" y="209" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1639023204804">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="623" y="209" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1637834404372" />
-    <state x="686" y="209" key="FileChooserDialogImpl" timestamp="1638168578724">
+    <state x="623" y="209" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1639023204804" />
+    <state x="686" y="209" key="FileChooserDialogImpl" timestamp="1639052469774">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="686" y="209" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1638168578724" />
+    <state x="686" y="209" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1639052469774" />
     <state x="808" y="385" key="Github.ShareDialog" timestamp="1635332242970">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="808" y="385" key="Github.ShareDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1635332242970" />
-    <state x="749" y="419" key="NewPhpFileDialog" timestamp="1637829446125">
+    <state x="749" y="419" key="NewPhpFileDialog" timestamp="1639023282857">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="749" y="419" key="NewPhpFileDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1637829446125" />
+    <state x="749" y="419" key="NewPhpFileDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1639023282857" />
     <state x="451" y="164" key="Vcs.Push.Dialog.v2" timestamp="1637836025163">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
