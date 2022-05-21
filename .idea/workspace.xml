@@ -11,16 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a983f70a-e13b-4f29-a65f-99d4cd35e619" name="Default Changelist" comment="Commit and push">
-      <change afterPath="$PROJECT_DIR$/public/Images/Sofia 1 A1.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/calculator.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/18ee98c5-dcfd-4808-b2d7-a84755d9dc18.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/18ee98c5-dcfd-4808-b2d7-a84755d9dc18.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontpage/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontpage/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CalculatorController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CalculatorController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/RuLevel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/RuLevel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/lang/ru/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ru/menu.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/lang/uk/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/uk/menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/courses.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/courses.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/single_course.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/single_course.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/calculator.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/calculator.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -207,6 +203,15 @@
       <workItem from="1638243824589" duration="267000" />
       <workItem from="1638516461039" duration="128000" />
       <workItem from="1639022991052" duration="7172000" />
+      <workItem from="1639140078685" duration="2962000" />
+      <workItem from="1639230534217" duration="16000" />
+      <workItem from="1640492468596" duration="2616000" />
+      <workItem from="1640693100418" duration="2438000" />
+      <workItem from="1640702216628" duration="1020000" />
+      <workItem from="1640748547221" duration="116000" />
+      <workItem from="1640847958760" duration="4663000" />
+      <workItem from="1641293961629" duration="599000" />
+      <workItem from="1646401964544" duration="20000" />
     </task>
     <task id="LOCAL-00001" summary="Commit and push">
       <created>1635493949506</created>
@@ -253,22 +258,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="commit and push" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="551" y="164" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1634990096842">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="551" y="164" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1634990096842" />
     <state x="623" y="209" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1639023204804">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="623" y="209" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1639023204804" />
-    <state x="686" y="209" key="FileChooserDialogImpl" timestamp="1639052469774">
+    <state x="686" y="209" key="FileChooserDialogImpl" timestamp="1646401978257">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="686" y="209" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1639052469774" />
-    <state x="808" y="385" key="Github.ShareDialog" timestamp="1635332242970">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="808" y="385" key="Github.ShareDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1635332242970" />
+    <state x="686" y="209" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1646401978257" />
     <state x="749" y="419" key="NewPhpFileDialog" timestamp="1639023282857">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -281,14 +278,6 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="764" y="227" width="583" height="577" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1637767088940" />
-    <state x="531" y="227" key="run.anything.popup" timestamp="1637242371792">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="531" y="227" key="run.anything.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1637242371792" />
-    <state x="539" y="0" width="840" height="1034" key="search.everywhere.popup" timestamp="1634988158712">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="539" y="0" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1634988158712" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

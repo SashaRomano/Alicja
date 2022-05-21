@@ -23,7 +23,9 @@ Route::get('courses/{language}', 'CoursesController@show')->name('courses');
 
 Route::get('course/{id?}/{language}', 'CoursesController@single_course')->name('course');
 
-Route::get('courses/calculator/{language}', 'CalculatorController@show')->name('calculator');
+Route::get('courses/calculator/{language}', 'CalculatorController@show')->name('calculator-get');
+
+Route::post('courses/calculator/{language}', 'CalculatorController@count')->name('calculator-post');
 
 Route::get('intensive/{language}', 'SimpleController@intensive')->name('intensive');
 
